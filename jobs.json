@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "images/capgemini.png",
+        "image": "images/Capgemini.png",
         "company": "Capgemini",
         "title": "Software Engineer",
         "description": "Software Engineer || Capgemini Exceller 2024-25",
@@ -11,7 +11,7 @@
     },
     {
         "id": "2",
-        "image": "images/google.jpeg",
+        "image": "images/Google.jpeg",
         "company": "Google",
         "title": "Software Engineer",
         "description": "Software Engineer || Capgemini Exceller 2024-25",
