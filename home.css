@@ -1,359 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
 body {
-    font-family: league spartan;
+    font-family: 'League Spartan', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
+
+/* Header Styling */
 .logo-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
     background: #006E74;
+    position: relative;
 }
+
 .logo {
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    height: 80px;
     border-radius: 5px;
+    object-fit: contain;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
 .title-container {
     text-align: center;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
-.title-container h1, h3 {
+
+.title-container h1, .title-container h3 {
     margin: 5px 0;
     color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+.title-container h1 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+/* Navigation */
+nav {
+    background: #006E74;
+    border-bottom: 3px solid rgba(255,255,255,0.2);
+}
+
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     background: #006E74;
+    flex-wrap: wrap;
 }
+
 nav ul li {
-    margin: 0 15px;
+    margin: 0;
 }
+
 nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    padding: 10px;
+    padding: 15px 20px;
     display: inline-block;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    position: relative;
 }
+
+nav ul li a:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
 nav ul li a:hover {
-    background: #0056b3;
-    color: white;
-    border-radius: 5px;
+    background: rgba(255,255,255,0.1);
 }
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+/* Intro Section */
 .intro {
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px;
     font-size: 20px;
-    background: #fff;
+    background: linear-gradient(to right, #fff, #f8f8f8, #fff);
     margin: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #006E74;
+    border-right: 4px solid #006E74;
 }
+
+/* Categories Section */
 .categories {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
+
 .category {
     background: white;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     width: 250px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #006E74;
 }
+
 .category:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+
 .category h2 {
     color: #006E74;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
 }
+
+.category p {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
 .category a {
     display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
+    margin-top: 15px;
+    padding: 12px 24px;
     background: #006E74;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    transition: 0.3s;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
 }
+
 .category a:hover {
-    background: #0056b3;
+    background: #005259;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
+
+/* Footer Styling */
 footer {
-background-color: #006E74;
-color: #fff;
-font-family: league spartan;
-padding: 10px 0;
+    background-color: #006E74;
+    color: #fff;
+    padding: 40px 0 0 0;
+    margin-top: 40px;
+    font-family: 'League Spartan', sans-serif;
 }
+
 .footer-container {
-display: flex;
-flex-wrap: wrap;
-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
+
 .about-company {
-flex: 0 0 40%;
-padding: 20px;
-box-sizing: border-box;
+    flex: 0 0 40%;
+    padding: 0 20px 20px 0;
+    box-sizing: border-box;
 }
+
+.about-company h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.about-company h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: white;
+}
+
+.about-company p {
+    line-height: 1.7;
+    color: rgba(255,255,255,0.9);
+}
+
 .support {
-flex: 0 0 30%;
-padding: 20px;
-box-sizing: border-box;
-color: white;
+    flex: 0 0 30%;
+    padding: 0 20px 20px 20px;
+    box-sizing: border-box;
 }
+
+.support h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.support h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: white;
+}
+
+.support ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.support li {
+    margin-bottom: 10px;
+}
+
 .support a {
-color: white;
-text-decoration: underline;
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    padding-left: 15px;
 }
-.support h3{
-margin-left: 20px;
+
+.support a:before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    transition: transform 0.3s ease;
 }
+
 .support a:hover {
-color: #cccccc;
+    color: white;
+    padding-left: 20px;
 }
+
+.support a:hover:before {
+    transform: translateX(5px);
+}
+
 .social-media {
-flex: 0 0 30%;
-padding: 10px;
-box-sizing: border-box;
+    flex: 0 0 30%;
+    padding: 0 0 20px 20px;
+    box-sizing: border-box;
 }
-.social-media {
-flex: 0 0 30%;
-padding: 10px;
-box-sizing: border-box;
-margin-bottom: 10px;
+
+.social-media h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: left;
 }
+
+.social-media h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: white;
+}
+
 .social-media a {
-display: inline-block;
-width: 60px;
-height: 60px;
-margin: 5px;
-background-color: white; /* White background to make brand colors pop */
-border-radius: 5px;
-text-align: center;
-line-height: 40px; /* Centers the icon vertically */
-transition: all 0.3s ease;
+    display: inline-block;
+    margin: 5px;
+    transition: all 0.3s ease;
 }
 
-.social-media a:hover {
-transform: translateY(-3px);
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-/* Keep the brand colors as set in the inline styles */
-.social-media i {
-font-size: 24px; /* Slightly larger icons */
-}
-.social-media h3{
-margin-left: 90px;
+.social-media a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
 }
 
-/* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
-.footer-container {
-    flex-direction: column;
-    margin-bottom: 0%;
+.social-media a:hover img {
+    transform: translateY(-5px);
 }
 
-.about-company,
-.support,
-.social-media {
-    flex: 0 0 100%;
-}
-}
-
-/* Styling for footer bottom */
 .footer-bottom {
-text-align: center;
-padding: 2px;
-border-top: 2px solid white;
-font-size: 14px;
-
-}
-/* Responsive Navbar */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .logo {
-        width: 120px;
-        height: 80px;
-    }
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 20px;
 }
 
-/* Improve job boxes on smaller screens */
-@media (max-width: 600px) {
-    .jobs-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .job-box {
-        width: 90%;
-    }
-
-    .job-box img {
-        width: 80px;
-        height: 80px;
-    }
+.footer-bottom p {
+    margin: 0;
+    font-size: 1rem;
 }
 
-/* Improve Footer Layout on Mobile */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .social-media {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-    }
-}
-
-/* Hamburger Menu for Mobile */
+/* Hamburger Menu */
 .menu-toggle {
     display: none;
-    cursor: pointer;
-    font-size: 24px;
     background: none;
     border: none;
     color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 15px;
     position: absolute;
-    right: 20px;
+    right: 15px;
     top: 15px;
+    z-index: 1000;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .categories {
+        gap: 20px;
+    }
+    
+    .category {
+        width: calc(50% - 40px);
+        min-width: 250px;
+    }
 }
 
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
     }
-
+    
+    .logo-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    
+    .title-container {
+        order: 1;
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .title-container h1 {
+        font-size: 1.8rem;
+    }
+    
+    .title-container h3 {
+        font-size: 1rem;
+    }
+    
+    .left-logo {
+        order: 0;
+    }
+    
+    .right-logo {
+        display: none;
+    }
+    
     nav ul {
         display: none;
         flex-direction: column;
-        width: 100%;
-        background: #006E74;
         position: absolute;
-        top: 60px;
+        top: 100%;
         left: 0;
-        padding: 0;
-        text-align: center;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     }
-
+    
     nav ul.active {
         display: flex;
     }
-
+    
     nav ul li {
-        margin: 10px 0;
+        margin: 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
     }
-}
-
-/* Responsive Job Listings */
-@media (max-width: 600px) {
-    .jobs-container {
-        flex-direction: column;
-        align-items: center;
+    
+    nav ul li a {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 15px;
     }
-
-    .job-box {
-        width: 90%;
+    
+    .category {
+        width: 100%;
         max-width: 350px;
     }
-
-    .job-box img {
-        width: 100px;
-        height: auto;
-    }
-}
-
-/* Responsive Footer */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
+    
+    .about-company, .support, .social-media {
+        flex: 0 0 100%;
+        padding: 20px;
         text-align: center;
     }
-
-    .social-media {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
+    
+    .about-company h3:after, .support h3:after, .social-media h3:after {
+        left: 50%;
+        transform: translateX(-50%);
     }
-}
-
-/* Ensure Full-Width Header & Footer Background */
-.logo-container, footer {
-    width: 100%;
-    box-sizing: border-box;
-}
-
-/* Fix Footer Alignment */
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-    text-align: left;
-}
-
-.about-company,
-.support,
-.social-media {
-    flex: 1;
-    min-width: 250px;
-    margin-bottom: 20px;
-}
-
-/* Center Align "Follow Us" on Mobile */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
+    
+    .support a {
+        padding-left: 0;
+    }
+    
+    .support a:before {
+        content: none;
+    }
+    
+    .social-media h3 {
         text-align: center;
     }
+}
 
-    .social-media {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
+@media (max-width: 480px) {
+    .logo {
+        width: 80px;
+        height: 60px;
     }
-}
-
-/* Ensure Footer Text Aligns Properly */
-.footer-bottom {
-    text-align: center;
-    width: 100%;
-    padding: 10px 0;
-    background-color: #006E74;
-    color: white;
-}
-
-/* Header Fix for Mobile */
-@media (max-width: 768px) {
-    .logo-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    
+    .intro {
+        font-size: 16px;
+        padding: 20px 15px;
+        margin: 15px 10px;
+    }
+    
+    .category {
+        padding: 20px 15px;
+    }
+    
+    .category h2 {
+        font-size: 1.5rem;
     }
 }
