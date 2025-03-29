@@ -1,12 +1,36 @@
 [
   {
     "id": "1",
-    "image": "images/Capgemini.png",
-    "company": "Capgemini",
-    "title": "Software Engineer",
-    "description": "Software Engineer || Capgemini Exceller 2024-25",
-    "fullDescription": "**Candidates must have an active DigiLocker account and active mobile number linked with their Aadhar Number while applying for this job.** Refer to attached pdf for a detailed walk-through of the process.\n\nCapgemini is hiring the best technical graduates emerging out of top engineering colleges to join us and become an integral part of our workforce.\n\nAs a part of Capgemini Exceller program, you will get to work with diverse teams, cross-functional projects & join a collaborative network of peers and mentors; working together for sustainable solutions for customers.\n\nIf being a part of & thriving in the ever-changing landscape of today’s technology world excites you, Capgemini is the place to be.\n\n**Key Responsibilities:**\n- Contribute to a global business and technology team responsible for developing and delivering innovative technology offerings and solutions.\n- Design, develop, modify, and help maintain the basic modules based on functional and system requirements.\n- Good exposure to configuration management, testing, deployment, researching, and utilizing new and emerging technologies to meet customer requirements.\n- Strong programming skills, as well as the ability to review complex code bases written by others.\n- Strong architecture and design background and keen business sense.\n\n**Desired Competencies:**\n- Communication: Strong communication skills for effective interactions with project partners.\n- Collaboration: Demonstrates good interpersonal and collaboration skills.\n- Flexibility: Willing to skill-up in multiple technologies and work in any Capgemini city location and travel as required.\n- Initiative: Ability to work independently, take initiative, and manage a variety of activities concurrently.\n- Other Skills: Good analytical and problem-solving skills.\n\n**Eligible Streams:**\nBE / BTECH / ME / MTECH - All specializations/branches; MCA & MSc (CS/IT specialization)\n\n**Disclaimer:**\nBy agreeing to participate in the campus recruitment drive you are agreeing to accept the prescribed process of this recruitment and shortlisting or selection is at the sole discretion of Capgemini. This participation and registration does not guarantee a call/offer letter, and the same will be based on the positions available across different cities in India among others.\n\nThis position is open only for Indian Citizens.",
-    "applyLink": "https://app.joinsuperset.com/join/#/signup/student/jobprofiles/7ca8ca7e-ca7f-4ecd-8f63-1aab526842e9",
-    "postingDate": "2025-03-22"
+    "image": "oracle.png",
+    "company": "Oracle",
+    "title": "Associate Software Engineer",
+    "description": "Associate Software Engineer || Product Development",
+    "fullDescription": "Job Description
+The Software Engineer is a contractually committed role to supporting AMS Custom Reporting and plays a crucial role in addressing clients' patient safety and financial revenue issues. Responsibilities encompass developing and modifying CCL scripts, participating in code reviews, collaborating on technical designs, and overseeing the debugging and documentation process. Aligned with Professional Services & Support, this role is essential for meeting AMS clients' contractual obligations, ensuring associates' alignment with clients, and contributing to overall client satisfaction.
+
+We are looking for 1+ years of experience. Primarily the work effort would be around SQL and CCL, adding to deliverables. In addition to coding the expectations are that the candidate would be part of Code reviews, SME group and also working on making the current processes more efficient. 
+
+The candidate should be open to support our clients over On call if required.
+
+Career Level - IC2
+
+Responsibilities
+As a member of the software engineering division, you will apply basic to intermediate knowledge of software architecture to perform software development tasks associated with developing, debugging or designing software applications or operating systems according to provided design specifications. Build enhancements within an existing software architecture and occasionally suggest improvements to the architecture.
+
+Required Skills
+Patient Safety
+SQL (Structured Query Language)
+About Us
+As a world leader in cloud solutions, Oracle uses tomorrow’s technology to tackle today’s challenges. We’ve partnered with industry-leaders in almost every sector—and continue to thrive after 40+ years of change by operating with integrity. 
+
+We know that true innovation starts when everyone is empowered to contribute. That’s why we’re committed to growing an inclusive workforce that promotes opportunities for all.
+
+Oracle careers open the door to global opportunities where work-life balance flourishes. We offer competitive benefits based on parity and consistency and support our people with flexible medical, life insurance, and retirement options. We also encourage employees to give back to their communities through our volunteer programs.
+
+We’re committed to including people with disabilities at all stages of the employment process. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the United States.
+
+Oracle is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans’ status, or any other characteristic protected by law. Oracle will consider for employment qualified applicants with arrest and conviction records pursuant to applicable law. ",
+    "applyLink": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/250545",
+    "postingDate": "2025-03-30"
   }
 ]
