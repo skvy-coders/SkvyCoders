@@ -79,7 +79,7 @@ nav ul li a {
 
 nav ul li a:after {
     content: '';
-    position: absolute;
+    position:0px;
     width: 0;
     height: 3px;
     bottom: 0;
