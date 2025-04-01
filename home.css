@@ -385,11 +385,15 @@ footer {
         display: none;
     }
     
+    nav {
+        position: relative; /* Add this to establish positioning context */
+    }
+    
     nav ul {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 100%;
+        top: 0; /* Changed from 100% to 0 */
         left: 0;
         width: 100%;
         z-index: 999;
