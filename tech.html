@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Gadgets - SkvyCoders</title>
+    <script src="https://kit.fontawesome.com/f420cd5556.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="tech.css">
+    <script defer src="common.js"></script>
+    <script defer src="tech.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.jpg" alt="SkvyCoders Logo" class="logo left-logo">
+            <div class="title-container">
+                <h1>SkvyCoders</h1>
+                <h3>Empowering Careers, Technology & Digital Services</h3>
+            </div>
+            <img src="images/logo.jpg" alt="SkvyCoders Logo" class="logo right-logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="jobs.html">Job Updates</a></li>
+                <li><a href="tech.html" class="active">Tech Gadgets</a></li>
+                <li><a href="sports.html">Sports Articles</a></li>
+                <li><a href="applications.html">Online Applications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <p>Discover the latest technology trends, gadget reviews, and tech news from around the world.</p>
+    </section>
+
+    <section class="filters">
+        <div class="filter-container">
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="smartphones">Smartphones</option>
+                <option value="laptops">Laptops</option>
+                <option value="wearables">Wearables</option>
+                <option value="audio">Audio</option>
+                <option value="gaming">Gaming</option>
+                <option value="accessories">Accessories</option>
+            </select>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search gadgets...">
+            <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+    </section>
+
+    <section class="gadgets-container" id="gadgets-container">
+        <!-- Gadget listings will be dynamically loaded here -->
+        <div class="loading">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Loading tech gadgets...</p>
+        </div>
+    </section>
+
+    <section class="featured-section">
+        <h2>Featured Tech News</h2>
+        <div class="featured-articles">
+            <div class="featured-article">
+                <img src="images/featured-tech1.jpg" alt="AI Advancements" onerror="this.src='images/fallback.jpg';">
+                <h3>AI Revolution in 2025: What's New?</h3>
+                <p>Explore how artificial intelligence is transforming various industries and everyday life.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="featured-article">
+                <img src="images/featured-tech2.jpg" alt="Sustainable Tech" onerror="this.src='images/fallback.jpg';">
+                <h3>Sustainable Tech: Eco-friendly Gadgets</h3>
+                <p>Discover the latest in eco-friendly technology that's helping to protect our planet.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="featured-article">
+                <img src="images/featured-tech3.jpg" alt="Tech Trends" onerror="this.src='images/fallback.jpg';">
+                <h3>Tech Trends to Watch in 2025</h3>
+                <p>Stay ahead of the curve with our predictions for the biggest tech trends this year.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="about-company">
+                <h3>ABOUT COMPANY</h3>
+                <p>SkvyCoders is a platform dedicated to providing the latest job updates, technology trends, sports news, and online application services. Our mission is to bring you real-time job postings, emerging technology trends, and step-by-step guides on applying for various government and private sector schemes. Whether you're looking to advance your career, stay updated with the latest gadgets, or explore digital services, SkvyCoders keeps you informed and empowered.</p>
+            </div>
+            <div class="support">
+                <h3>SUPPORT</h3>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="https://chat.whatsapp.com/Kb52TKLK1cH5NEiMrimmt2" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp"/></a>
+                <a href="https://www.instagram.com/skvycoders?igsh=MTR2MDEzYjYyYjZ5NQ==" target="_blank"><img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram"/></a>
+                <a href="https://t.me/Skvycoders" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/telegram-app--v1.png" alt="telegram"/></a>
+                <a href="mailto:skvycoders@gmail.com"><img width="48" height="48" src="https://img.icons8.com/fluency/48/gmail-new.png" alt="gmail"/></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>©2025 <b>SkvyCoders</b> </p>
+        </div>
+    </footer>
+</body>
+</html>
