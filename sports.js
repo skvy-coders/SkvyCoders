@@ -31,13 +31,24 @@ document.addEventListener("DOMContentLoaded", function () {
             articles.forEach(article => {
                 let articleBox = document.createElement("div");
                 articleBox.classList.add("article-box");
+                
+                // Format the date to be more readable
+                const publishDate = new Date(article.publishDate);
+                const formattedDate = publishDate.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+                
                 articleBox.innerHTML = `
                     <img src="${article.image}" alt="${article.title}" onerror="this.src='images/fallback.jpg';">
-                    <h3>${article.title}</h3>
-                    <p class="category"><span class="sport-category">${article.category}</span></p>
-                    <p>${article.summary}</p>
-                    <p><strong>Published:</strong> ${article.publishDate}</p>
-                    <a href="sports-article.html?id=${article.id}">Read More</a>
+                    <div class="article-content">
+                        <span class="sport-category">${article.category}</span>
+                        <h3>${article.title}</h3>
+                        <p>${article.summary}</p>
+                        <p class="publish-date"><strong>Published:</strong> ${formattedDate}</p>
+                        <a href="sports-article.html?id=${article.id}">Read More</a>
+                    </div>
                 `;
                 sportsContainer.appendChild(articleBox);
             });
