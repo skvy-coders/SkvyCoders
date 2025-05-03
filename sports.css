@@ -1,0 +1,134 @@
+/* Sports Page Specific Styles */
+
+/* Main container for sports articles */
+.sports-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual article box styling */
+.article-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.article-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Article image styling */
+.article-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* Article content container */
+.article-content {
+    padding: 16px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Article title */
+.article-box h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #333;
+    padding: 0 16px;
+}
+
+/* Article summary */
+.article-box p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding: 0 16px;
+}
+
+/* Category badge */
+.sport-category {
+    display: inline-block;
+    background-color: #4a90e2;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 10px 16px;
+}
+
+/* Publication date */
+.article-box .publish-date {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: auto;
+    padding: 0 16px;
+    margin-bottom: 10px;
+}
+
+/* Read more link */
+.article-box a {
+    display: inline-block;
+    margin: 10px 16px 16px;
+    padding: 8px 16px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.article-box a:hover {
+    background-color: #357abd;
+}
+
+/* Loading and error messages */
+.loading, .error-message {
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+}
+
+.loading i, .error-message i {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+
+.error-message i {
+    color: #e74c3c;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sports-container {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sports-container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}
