@@ -1,3 +1,21 @@
 [
-  
+  {
+    "id": 1,
+    "extendedDescription": "The Galaxy S24 Ultra represents the pinnacle of Samsung's mobile technology. With its revolutionary AI capabilities, this device transforms how you interact with your smartphone. The titanium frame provides exceptional durability while maintaining a premium feel. The S Pen offers precision input for note-taking and creative work, with improved latency for a more natural writing experience. Its advanced camera system with quad sensors captures stunning photos in any lighting condition, while the robust battery easily powers through a full day of heavy use.",
+    "specifications": [
+      {"name": "Display", "value": "6.8\" Dynamic AMOLED 2X, 3120 x 1440 resolution, 120Hz"},
+      {"name": "Processor", "value": "Snapdragon 8 Gen 3"},
+      {"name": "RAM", "value": "12GB LPDDR5X"},
+      {"name": "Storage", "value": "256GB/512GB/1TB UFS 4.0"},
+      {"name": "Main Camera", "value": "200MP f/1.7 OIS"},
+      {"name": "Ultra-Wide Camera", "value": "12MP f/2.2, 120° FOV"},
+      {"name": "Telephoto Camera", "value": "50MP f/3.4, 5x optical zoom, OIS"},
+      {"name": "Front Camera", "value": "12MP f/2.2 with autofocus"},
+      {"name": "Battery", "value": "5000mAh with 45W fast charging"},
+      {"name": "OS", "value": "Android 14 with One UI 6.1"},
+      {"name": "Water Resistance", "value": "IP68 dust/water resistant"},
+      {"name": "Dimensions", "value": "162.3 x 79 x 8.6 mm"},
+      {"name": "Weight", "value": "232g"}
+    ]
+  }
 ]
