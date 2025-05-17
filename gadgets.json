@@ -1,6 +1,6 @@
 [
- {
-  "id": 1,
+  {
+    "id": 1,
     "name": "Galaxy S26 Ultra",
     "brand": "Samsung",
     "price": "₹1199.99",
@@ -8,5 +8,15 @@
     "description": "The latest flagship smartphone with advanced AI capabilities and 200MP camera.",
     "image": "images/galaxy-s26.jpg",
     "rating": 4.8
- }
+  },
+  {
+    "id": 2,
+    "name": "realme Narzo 60 Pro 5G",
+    "brand": "Realme Narzo",
+    "price": "₹24,999",
+    "category": "smartphones",
+    "description": "c,mv ,msnvkldsn",
+    "image": "images/realmenarzo60pro.jpg",
+    "rating": 4
+  }
 ]
