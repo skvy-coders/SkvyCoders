@@ -1,0 +1,38 @@
+{
+  "id": 1,
+  "extendedDescription": "The Realme Narzo 60 Pro 5G flaunts a 6.7-inch AMOLED display with a 120Hz refresh rate. The device has a stylish design and a vegan leather back panel. The device uses an octa-core Dimensity 7020 SoC which handles all the demanding tasks and gaming with ease. The smartphone features a 100MP primary camera which captures excellent photos. However, the device doesn't feature an ultra-wide camera. Additionally, it doesn't have a microSD card slot, a 3.5mm audio jack, and an IP rating for water and dust resistance. If your priority is display, performance, design, and fast charging support, you can go for the Realme Narzo 60 Pro 5G.",
+  "specifications": [
+    {
+      "name": "Display",
+      "value": "17.02 cm (6.7 inch) Full HD+ Display"
+    },
+    {
+      "name": "Processor",
+      "value": "octa -core Mediatek Dimensity"
+    },
+    {
+      "name": "RAM",
+      "value": "8GB/12GB"
+    },
+    {
+      "name": "Storage",
+      "value": "128GB/256GB"
+    },
+    {
+      "name": "Camera",
+      "value": "100MP Rear Camera | 2MP Front Camera"
+    },
+    {
+      "name": "Battery",
+      "value": "5000 mAh Battery"
+    },
+    {
+      "name": "Quick Charge",
+      "value": "65W Super Vooc Charge"
+    },
+    {
+      "name": "Display Type",
+      "value": "curved dislay vision-120HZ"
+    }
+  ]
+}
