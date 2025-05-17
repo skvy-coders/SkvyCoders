@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
             
             // Now load the detailed description for this gadget
-            return fetch('gadget-description.json')
+            return fetch('gadgets-description.json')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Failed to load gadget descriptions');
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function displaySpecifications(gadget) {
-        // Use specifications from gadget-description.json if available, otherwise display basic info
+        // Use specifications from gadgets-description.json if available, otherwise display basic info
         if (gadget.specifications && Array.isArray(gadget.specifications)) {
             let specsHTML = '<ul>';
             gadget.specifications.forEach(spec => {
