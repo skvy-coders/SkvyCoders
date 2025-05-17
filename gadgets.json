@@ -1,3 +1,12 @@
 [
- 
+ {
+  "id": 1,
+    "name": "Galaxy S26 Ultra",
+    "brand": "Samsung",
+    "price": "₹1199.99",
+    "category": "smartphones",
+    "description": "The latest flagship smartphone with advanced AI capabilities and 200MP camera.",
+    "image": "images/galaxy-s26.jpg",
+    "rating": 4.8
+ }
 ]
