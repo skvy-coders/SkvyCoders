@@ -36,5 +36,23 @@
         "value": "10 Stage Purifier - RO+UV boosted with Copper, Minerals & Alkaline"
       }
     ]
+  },
+  {
+    "id": 3,
+    "extendedDescription": "About this item:\nThe curvy and edgy Zeb-Dolphin is an advanced portable wireless mouse that weighs just 75g and fits aptly for everyday use.\nThe mouse supports dual-mode by giving a seamless wireless connection of 2.4 GHz and Bluetooth v5.0 that can work up to 10m distance without obstruction.\nIt comes with an advanced optical sensor with 1200 DPI for smooth cursor movements with top-notch precision.\nAn important component in the mouse is a detachable nano receiver USB attached to the bottom panel. Customers who lose or misplace the dongle easily will find this socket useful.\nErgonomically designed and comfortable to hold, this glossy-finished mouse can be used for long working hours even when it is used on a mouse pad, plain table, or wooden surface.\nThe three buttons—Right, Left, and scroll—attached to the right thumb side buttons with 1 million cycles can boost your productivity\nAccording to the comfort of the user, the mouse is designed such that its dedicated ON/OFF button can serve as an automatic power saver.\nIf you are someone who looks out for a pin-drop silence in your workplace, then the Zeb-Dolphin mouse is the one for you. This mouse comes with a silent-operation feature so you can now work without any disturbance.\nThis mouse has to be operated by a single, durable AA battery, which has to be purchased separately. It comes in two colors—black and white—that can add a classy look to your workspace.",
+    "specifications": [
+      {
+        "name": "Connectivity Technology",
+        "value": "Bluetooth"
+      },
+      {
+        "name": "Special Feature",
+        "value": "Wireless"
+      },
+      {
+        "name": "Movement Detection Technology",
+        "value": "Optical"
+      }
+    ]
   }
 ]
