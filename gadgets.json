@@ -8,5 +8,15 @@
     "description": "The Realme Narzo 60 Pro 5G flaunts a 6.7-inch AMOLED display with a 120Hz refresh rate.",
     "image": "images/realmenarzo60pro.jpg",
     "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Native by UC Urban Company M1 Water Purifier",
+    "brand": "Native by UC",
+    "price": "₹13,999",
+    "category": "accessories",
+    "description": "Native by UC Urban Company M1 Water Purifier | Needs No Service For 2 Years | RO+UV+Copper+Alkaline | 10-Stage Purifier | 4-in-1 Health Booster | 8L Capacity | 2 Year Warranty (Filters Included)",
+    "image": "KJB",
+    "rating": 4.5
   }
 ]
