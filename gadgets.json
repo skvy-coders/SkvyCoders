@@ -18,5 +18,15 @@
     "description": "Native by UC Urban Company M1 Water Purifier | Needs No Service For 2 Years | RO+UV+Copper+Alkaline | 10-Stage Purifier | 4-in-1 Health Booster | 8L Capacity | 2 Year Warranty (Filters Included)",
     "image": "KJB",
     "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "ZEBRONICS Dolphin Silent Wireless Mouse",
+    "brand": "ZEBRONICS",
+    "price": " ₹699",
+    "category": "laptops",
+    "description": "ZEBRONICS Dolphin Silent Wireless Mouse, Dual Mode Bluetooth, 2.4 GHz, 1200 DPI, 3 Buttons, USB Nano Receiver, Thumb Scroll Wheel, Glossy Finish and Ergonomic Design (White)",
+    "image": "dxsx",
+    "rating": 4
   }
 ]
