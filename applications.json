@@ -1,3 +1,36 @@
 [
-
+  {
+    "id": "1",
+    "title": "How to Apply for a Student Visa",
+    "category": "Immigration",
+    "description": "A comprehensive guide to help international students navigate the process of applying for a student visa.",
+    "lastUpdated": "2025-04-15",
+    "steps": [
+      {
+        "title": "Gather Required Documents",
+        "description": "<p>Before starting your student visa application, make sure you have the following documents:</p><ul><li>Valid passport</li><li>Acceptance letter from your educational institution</li><li>Proof of financial support</li><li>Academic transcripts and certificates</li><li>English language proficiency test results (if applicable)</li></ul>",
+        "image": "images/visa-documents.jpg"
+      },
+      {
+        "title": "Complete the Visa Application Form",
+        "description": "<p>Visit the official immigration website and fill out the student visa application form. Be sure to:</p><ul><li>Answer all questions truthfully and completely</li><li>Double-check all information before submission</li><li>Use the correct format for dates and other information</li><li>Save your application ID number for future reference</li></ul>",
+        "image": "images/visa-application.jpg"
+      },
+      {
+        "title": "Pay Application Fees",
+        "description": "<p>Student visa applications typically require a non-refundable processing fee. Payment methods may include:</p><ul><li>Credit/debit card</li><li>Bank transfer</li><li>Online payment systems</li></ul><p>Keep your receipt as proof of payment.</p>",
+        "image": "images/visa-payment.jpg"
+      },
+      {
+        "title": "Schedule and Attend Visa Interview",
+        "description": "<p>Most student visa applications require an in-person interview at the embassy or consulate:</p><ul><li>Schedule your interview well in advance</li><li>Prepare for common interview questions</li><li>Bring all original documents</li><li>Dress professionally</li><li>Arrive early to your appointment</li></ul>",
+        "image": "images/visa-interview.jpg"
+      },
+      {
+        "title": "Wait for Visa Processing",
+        "description": "<p>After your interview, your application will be processed:</p><ul><li>Processing times vary by country and season</li><li>You can typically check your application status online</li><li>Avoid making travel arrangements until your visa is approved</li></ul>",
+        "image": "images/visa-processing.jpg"
+      }
+    ]
+  }
 ]
