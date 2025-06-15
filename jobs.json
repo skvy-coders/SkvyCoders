@@ -58,5 +58,15 @@
     "image": "images/Accenture.jpg",
     "applyLink": "https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-4824600-S1849878_en&title=Software+Configuration+Engineer",
     "postingDate": "2025-05-17"
+  },
+  {
+    "id": "13",
+    "company": "Accenture",
+    "title": "Dev",
+    "description": "New Dev",
+    "fullDescription": "sfjdf",
+    "image": "images/accenture.jpg",
+    "applyLink": "test",
+    "postingDate": "2025-06-15"
   }
 ]
