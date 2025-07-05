@@ -92,5 +92,39 @@
         "value": "Optical"
       }
     ]
+  },
+  {
+    "id": 4,
+    "extendedDescription": "Brand:\tHUL Pureit\nSpecial Feature\tWQA Tested For Family Safety; Mineral Enriched Water; Large Water Storage; Integrated Sediment Filter; High Speed Purification WQA Tested For Family Safety; Mineral Enriched Water; Large Water Storage; Integrated Sediment Filter; High Speed Purification\nProduct Dimensions: 27.4 L x 32.5 W x 38 H Centimeters\nPackage Information\tDispenser\nInstallation Type:\tWall Mount",
+    "specifications": [
+      {
+        "name": " Brand Name",
+        "value": "HUL Pureit"
+      },
+      {
+        "name": "Model Name",
+        "value": "Wave Series"
+      },
+      {
+        "name": "Manufacture Year",
+        "value": "2025"
+      },
+      {
+        "name": "ASIN",
+        "value": "B0DCG4T5Q6"
+      },
+      {
+        "name": "Item Type Name",
+        "value": "Water Purifier"
+      },
+      {
+        "name": "Item Height",
+        "value": "38 Centimeters"
+      },
+      {
+        "name": "Packer Contact Information",
+        "value": "Ronch Polymers Pvt Ltd. SR. NO-179/3 & 181/2, Panchal Udyog Nagar, Village Bhimpore, Nani-Daman, Daman, Dadra & Nagar Haveli and Daman & Diu (U.T.)-396210"
+      }
+    ]
   }
 ]
